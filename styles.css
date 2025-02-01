@@ -3,12 +3,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: white; /* Установите белый фон */
+    background-color: white; /* Белый фон */
+    color: black; /* Черный текст */
 }
 
 header {
-    background: #4CAF50;
-    color: white;
+    background: #4CAF50; /* Зеленая шапка */
+    color: white; /* Белый текст в шапке */
     padding: 10px 0;
     text-align: center;
 }
@@ -26,12 +27,17 @@ h1 {
 
 h2 {
     font-size: 2em;
-    color: #4CAF50;
+    color: #4CAF50; /* Цвет заголовков */
 }
 
 h3 {
     font-size: 1.5em;
-    color: #333;
+    color: #333; /* Цвет подзаголовков */
+}
+
+.highlight {
+    background-color: yellow; /* Цвет выделения текста */
+    color: black; /* Черный текст для выделенного текста */
 }
 
 ul {
