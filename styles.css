@@ -10,8 +10,10 @@ body {
 header {
     background: #4CAF50; /* Зеленая шапка */
     color: white; /* Белый текст в шапке */
-    padding: 10px 0;
+    padding: 20px 0; /* Увеличил отступы для лучшего внешнего вида */
     text-align: center;
+    font-family: 'Georgia', serif; /* Изменен шрифт на более красивый для заголовка */
+    font-size: 2.5em; /* Увеличенный размер шрифта заголовка */
 }
 
 .content-section {
@@ -19,6 +21,8 @@ header {
     margin: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    background-color: #f9f9f9; /* Светлый фон для выделения секций */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Добавлена тень для глубины */
 }
 
 h1 {
@@ -41,8 +45,8 @@ h3 {
 }
 
 ul {
-    list-style-type: disc;
-    margin-left: 20px;
+    list-style-type: none; /* Убраны маркеры списка */
+    padding-left: 0; /* Убрано отступ слева */
 }
 
 footer {
