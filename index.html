@@ -1,176 +1,85 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Здоровое питание</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: white; /* Белый фон */
-            color: black; /* Черный текст */
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-        header {
-            background: #4CAF50; /* Зеленая шапка */
-            color: white; /* Белый текст в шапке */
-            padding: 7px 0; /* Уменьшенные отступы для шапки */
-            text-align: center;
-            font-family: 'Georgia', serif; /* Изменен шрифт на более красивый для заголовка */
-            font-size: 1.5em; /* Уменьшенный размер шрифта заголовка */
-        }
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
+header {
+    background: #003366;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
 
-        nav ul li {
-            display: inline;
-            margin: 0 10px; /* Уменьшен отступ между пунктами */
-        }
+h1 {
+    margin: 0;
+}
 
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-            font-weight: 500;
-        }
+section {
+    padding: 20px 0; }
 
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
+h2 {
+    color: #003366;
+}
 
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-        }
+ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-        .content-section {
-            padding: 20px;
-            margin: 10px;
-            border: 1px solid #4CAF50; /* Ярко-зеленая рамка */
-            border-radius: 5px;
-            background-color: #f9f9f9; /* Светлый фон для выделения секций */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Добавлена тень для глубины */
-        }
+li {
+    background: #e6f0ff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
 
-        h1 {
-            font-size: 2em; /* Уменьшенный размер основного заголовка */
-        }
+blockquote {
+    background: #e6f0ff;
+    padding: 15px;
+    border-left: 5px solid #003366;
+    margin: 10px 0;
+}
 
-        h2 {
-            font-size: 1.8em; /* Уменьшенный размер заголовков секций */
-            color: #4CAF50; /* Цвет заголовков */
-        }
+form {
+    display: flex;
+    flex-direction: column;
+}
 
-        h3 {
-            font-size: 1.5em;
-            color: #333; /* Цвет подзаголовков */
-        }
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
 
-        .highlight {
-            background-color: yellow; /* Цвет выделения текста */
-            color: black; /* Черный текст для выделенного текста */
-        }
+button {
+    background: #003366;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-        ul, ol {
-            margin: 15px 0;
-            padding-left: 20px;
-            list-style: none; /* Убраны маркеры списка */
-        }
+button:hover {
+    background: #00509e;
+}
 
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #f4f4f4;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Здоровое питание</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Что такое здоровое питание?</a></li>
-                <li><a href="#principles">Основные принципы</a></li>
-                <li><a href="#recipes">Рецепты</a></li>
-                <li><a href="#articles">Полезные статьи</a></li>
-            </ul>
-        </nav>
-    </header>
+footer {
+    background: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
 
-    <main>
-        <section id="about" class="content-section">
-            <h2>Что такое здоровое питание?</h2>
-            <p>Здоровое питание — это такое питание, которое обеспечивает рост, оптимальное развитие, полноценную жизнедеятельность, способствует укреплению здоровья и профилактике неинфекционных заболеваний (НИЗ), включая диабет, болезни сердца, инсульт и рак.</p>
-            <blockquote>
-
-                <p>Здоровое питание должно быть богато фруктами, овощами, цельным зерном, бобовыми, орехами и рыбой, с низким уровнем потребления насыщенных жиров, трансжиров и сахара и ограниченным потреблением соли, с низким уровнем потребления продуктов из очищенных зёрен, обработанного мяса и подслащенных продуктов.</p>
-            </blockquote>
-            <p>Следование рекомендациям здорового питания в сочетании с регулярной физической активностью уменьшает риск развития хронических заболеваний и расстройств, таких как ожирение, сердечно-сосудистые заболевания, диабет и повышенное давление.</p>
-        </section>
-
-        <section id="principles" class="content-section">
-            <h2>Основные принципы</h2>
-            <p>Чтобы придерживаться правильного питания, необходимо знать его основные принципы:</p>
-            <ul>
-                <li><strong>Регулярные приемы пищи:</strong> каждые три-четыре часа.</li>
-                <li><strong>Не пить много воды во время еды.</strong></li>
-                <li><strong>Снизить употребление обезжиренных продуктов.</strong></li>
-                <li><strong>Есть небольшими порциями</strong> и только в то время, когда организм требует еды.</li>
-                <li><strong>Употреблять как можно больше натуральных продуктов</strong>, фруктов и овощей.</li>
-            </ul>
-            <h3>Составление рациона</h3>
-            <p>При составлении рациона нужно учитывать необходимое для организма количество белков, жиров и углеводов.</p>
-
-            <h3>Рекомендуемые продукты</h3>
-            <p>Для того чтобы придерживаться правильного питания, нужно знать, какие продукты считаются полезными:</p>
-            <ul>
-                <li>Овощи (капуста, огурцы, помидоры, болгарский перец, свекла, морковь).</li>
-                <li>Все виды съедобных грибов.</li>
-                <li>Салат листовой, любая зелень, шпинат, щавель.</li>
-                <li>Чай и кофе без сахара и добавок.</li>
-                <li>Питьевая негазированная вода.</li>
-                <li>Мясо (баранина, индейка, телятина, говядина).</li>
-                <li>Рыба (форель, сельдь, треска и т.д.).</li>
-                <li>Яйца и кисломолочные продукты.</li>
-            </ul>
-        </section>
-
-        <section id="recipes" class="content-section">
-            <h2>Рецепты</h2>
-            <h3>Рецепт смузи из шпината и банана</h3>
-            <p><strong>Ингредиенты:</strong></p>
-            <ul>
-                <li>1 чашка свежего шпината</li>
-                <li>1 банан</li>
-                <li>1/2 чашки йогурта</li>
-                <li>1/2 чашки воды или молока</li>
-                <li>Несколько кубиков льда</li>
-            </ul>
-            <p><strong>Приготовление:</strong></p>
-            <ol>
-                <li>Поместите все ингредиенты в блендер.</li>
-                <li>Смешивайте до получения однородной массы.</li>
-                <li>При необходимости добавьте больше воды или молока для достижения желаемой консистенции.</li>
-                <li>Перелите в стакан и подавайте немедленно.</li>
-            </ol>
-        </section>
-
-        <section id="articles" class="content-section">
-            <h2>Полезные статьи</h2>
-            <p>В этом разделе будут опубликованы статьи по темам здоровья, питательных веществ и их роли в организме.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Здоровое питание.</p>
-    </footer>
-</body>
-</html>
+footer a {
+    color: #ffffff;
+}
