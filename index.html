@@ -1,85 +1,73 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Газпром Межрегионгаз Уфа</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ООО «Газпром Межрегионгаз Уфа»</h1>
+            <p>Надежный партнер в газоснабжении</p>
+        </div>
+    </header>
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
+    <section id="about">
+        <div class="container">
+            <h2>О компании</h2>
+            <p>ООО «Газпром Межрегионгаз Уфа» — ведущая компания в сфере транспортировки и распределения природного газа в Республике Башкортостан. С момента своего основания в 2002 году мы обеспечиваем наших клиентов качественными услугами и надежными поставками газа.</p>
+        </div>
+    </section>
 
-header {
-    background: #003366;
-    color: #ffffff;
-    padding: 30px 0;
-    text-align: center;
-}
+    <section id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <ul>
+                <li><strong>Поставка природного газа:</strong> Обеспечиваем бесперебойные поставки газа для жилых и промышленных объектов.</li>
+                <li><strong>Техническое обслуживание:</strong> Проводим техническое обслуживание и ремонт газового оборудования, гарантируя безопасность и надежность.</li>
+                <li><strong>Консультационные услуги:</strong> Предоставляем профессиональные консультации по вопросам подключения к газовым сетям и оптимизации потребления.</li>
+            </ul>
+        </div>
+    </section>
 
-h1 {
-    margin: 0;
-}
+    <section id="advantages">
+        <div class="container">
+            <h2>Почему выбирают нас?</h2>
+            <ul>
+                <li><strong>Индивидуальный подход:</strong> Мы разрабатываем решения, учитывая потребности каждого клиента.</li>
+                <li><strong>Гибкие тарифные планы:</strong> Предлагаем различные тарифы и условия оплаты, чтобы сделать наши услуги доступными для всех.</li>
+                <li><strong>Качество и надежность:</strong> Мы гарантируем высокое качество обслуживания и соблюдение всех стандартов безопасности.</li>
+            </ul>
+        </div>
+    </section>
 
-section {
-    padding: 20px 0; }
+    <section id="testimonials">
+        <div class="container">
+            <h2>Отзывы клиентов</h2>
+            <blockquote>"Сотрудничество с ООО «Газпром Межрегионгаз Уфа» — это всегда надежно и удобно. Рекомендую!" — Иван Петров, директор ООО «СтройСервис»</blockquote>
+            <blockquote>"Отличная компания! Поставки всегда вовремя, а обслуживание на высшем уровне." — Анна Смирнова, владелец кафе «Вкусно»</blockquote>
+        </div>
+    </section>
 
-h2 {
-    color: #003366;
-}
+    <section id="contact">
+        <div class="container">
+            <h2>Свяжитесь с нами!</h2>
+            <p>Телефон: +7 (347) 123-45-67</p>
+            <p>Электронная почта: info@gazprom-ufa.ru</p>
+            <p>Адрес: Республика Башкортостан, г. Уфа, ул. Газовая, д. 1</p>
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
+            <h3>Оставьте заявку на обратный звонок:</h3>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                <textarea name="message" placeholder="Ваше сообщение"></textarea>
+                <button type="submit">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
 
-li {
-    background: #e6f0ff;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-blockquote {
-    background: #e6f0ff;
-    padding: 15px;
-    border-left: 5px solid #003366;
-    margin: 10px 0;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input, textarea {
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-button {
-    background: #003366;
-    color: #ffffff;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #00509e;
-}
-
-footer {
-    background: #003366;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-footer a {
-    color: #ffffff;
-}
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ООО «Газпром Межрегионгаз Уфа». Все права защищены.</p>
